@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101c24">
+  <meta name="description" content="ПрофАвто — ремонт и обслуживание автомобилей в Москве. Диагностика, ТО, шиномонтаж и заправка автокондиционеров. Пн–сб, 10:00–20:00. +7 926 587-57-06.">
+  <title>ПрофАвто — автосервис в Москве</title>
+  <link rel="icon" type="image/png" href="./fav.png">
+  <link rel="preload" href="./assets/fonts/roboto-condensed-bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./assets/images/hero.webp" as="image">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="ПрофАвто — главная"><img src="./logo.png" alt="ПрофАвто — автосервис" width="1241" height="1241"></a>
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги и цены</a><a href="#about">О сервисе</a><a href="#parts">Запчасти</a><a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header-contact"><a href="tel:+79265875706">+7 926 587-57-06</a><span>Пн–сб, 10:00–20:00</span></div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню"><span></span><span></span></button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true"><img src="./assets/images/hero.webp" alt="" width="1672" height="941" fetchpriority="high"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <h1 id="hero-title"><span>Ремонт и</span> <span>обслуживание</span> <span>автомобилей</span></h1>
+        <p class="hero-description">В Москве. По записи. С вниманием к вашему автомобилю.</p>
+        <div class="hero-actions"><a class="button" href="#contacts">Записаться на диагностику <span class="arrow" aria-hidden="true">↗</span></a><a class="text-link light" href="#services">Услуги и цены <span aria-hidden="true">↓</span></a></div>
+        <a class="hero-address" href="#contacts">Москва, 3-й Дачно-Мещерский проезд,<br class="mobile-break"> 24–24А, стр. 1</a>
+      </div>
+    </section>
+    <section class="advantages container" aria-label="Наш подход к работе">
+      <p data-reveal>Опыт сотрудников<br> более 10 лет</p><p data-reveal>Современное<br> оборудование</p><p data-reveal>Обслуживание<br> по записи</p>
+    </section>
+    <section class="services section-space container" id="services" aria-labelledby="services-title">
+      <div class="section-heading"><h2 id="services-title" data-reveal>Услуги и цены</h2><p>Полный спектр услуг по ремонту<br> и обслуживанию автомобилей.</p></div>
+      <div class="services-layout">
+        <figure class="mechanic-photo" data-reveal><img src="./assets/images/mechanic.webp" alt="Диагностика двигателя автомобиля" width="1135" height="1386" loading="lazy"><figcaption>Иллюстрация процесса диагностики</figcaption></figure>
+        <div class="service-list">
+          <a class="service-row" href="./prices.html#diagnostics" data-reveal><h3>Диагностика автомобиля</h3><span class="service-price">от 1 500 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#maintenance" data-reveal><h3>Техническое обслуживание</h3><span class="service-price">от 1 500 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#tires" data-reveal><h3>Шиномонтаж</h3><span class="service-price">от 1 600 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#air-conditioning" data-reveal><h3>Заправка автокондиционеров</h3><span class="service-price service-price-note">Уточнить стоимость</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#suspension" data-reveal><h3>Подвеска и тормозная система</h3><span class="service-price">от 500 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#engine" data-reveal><h3>Узлы и агрегаты</h3><span class="service-price">от 2 500 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#electronics" data-reveal><h3>Электронное оборудование</h3><span class="service-price">от 1 000 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#alarm" data-reveal><h3>Установка сигнализации</h3><span class="service-price">от 4 000 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#anticorrosion" data-reveal><h3>Антикоррозийная обработка</h3><span class="service-price">от 12 000 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="service-row" href="./prices.html#selection" data-reveal><h3>Автоподбор</h3><span class="service-price">от 7 000 ₽</span><span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="services-bottom"><a class="button" href="./prices.html">Все услуги и цены <span class="arrow" aria-hidden="true">↗</span></a><p class="muted">Итоговая стоимость зависит от марки автомобиля и определяется после диагностики.</p></div>
+    </section>
+    <section class="about dark-section" id="about" aria-labelledby="about-title">
+      <div class="container about-layout">
+        <div class="about-copy"><h2 id="about-title" data-reveal>О нашем сервисе</h2><p data-reveal>Мы предлагаем полный спектр ремонтных услуг любой сложности, а также ценим ваше время, поэтому всегда выполняем все работы быстро и в срок.</p><p class="about-detail" data-reveal>Два поста с отдельными воротами.<br>Обслуживаем по записи, чтобы уделить вам достаточно времени.</p></div>
+        <figure class="exterior-photo" data-reveal><img src="./assets/images/service-exterior.webp" alt="Фасад автосервиса ПрофАвто с двумя отдельными въездами" width="1280" height="960" loading="lazy"><figcaption>Наш сервис. Здесь ждём ваш автомобиль.</figcaption></figure>
+      </div>
+    </section>
+    <section class="parts" id="parts" aria-labelledby="parts-title"><div class="container parts-layout"><div><h2 id="parts-title" data-reveal>Автозапчасти в наличии<br>и под заказ.</h2><p>Доставка по всей России. По Москве — в течение одного дня.</p></div><a class="button button-dark" href="https://t.me/profauto03" target="_blank" rel="noopener noreferrer">Подобрать запчасти <span class="arrow" aria-hidden="true">↗</span></a></div></section>
+    <section class="contacts section-space container" id="contacts" aria-labelledby="contacts-title">
+      <div class="contacts-layout">
+        <div class="contact-copy"><h2 id="contacts-title" data-reveal>Будем на связи.</h2><a class="contact-phone" href="tel:+79265875706">+7 926 587-57-06</a><a class="contact-email" href="mailto:profauto03@gmail.com">profauto03@gmail.com</a><p class="contact-invitation">Запишитесь на обслуживание или задайте вопрос специалисту.</p><div class="social-links"><a class="text-link" href="https://t.me/profauto03" target="_blank" rel="noopener noreferrer">Telegram <span aria-hidden="true">↗</span></a><a class="text-link" href="https://wa.me/79265875706" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a></div></div>
+        <div class="location"><div class="map-frame"><iframe title="ПрофАвто на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9239f4001f0477cc9d0be5ed8effa743379e8b120b42d172791e2732b5e82ac2&amp;source=constructor" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><address>Москва, 3-й Дачно-Мещерский проезд,<br>24–24А, строение 1</address><p>Пн–сб с 10:00 до 20:00</p><a class="text-link route-link" href="https://yandex.ru/maps/?text=Москва%2C%203-й%20Дачно-Мещерский%20проезд%2C%2024-24А%2C%20строение%201" target="_blank" rel="noopener noreferrer">Построить маршрут <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer container"><a class="footer-brand" href="./">ПрофАвто</a><a href="https://profauto03.ru/privacy" target="_blank" rel="noopener noreferrer">Политика конфиденциальности</a><span>© <span data-year>2026</span></span></footer>
+  <a class="mobile-call" href="tel:+79265875706">Позвонить в сервис <span aria-hidden="true">↗</span></a>
+</body>
+</html>
